@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica/Helvetica Bold.ttf');
+    
+    }
+    
+    body{
+        background: #F4F4F4;
+        color: #606060;
+        width: 100% !important;
+        overflow-x: hidden !important;
+    
+    }
+    .active::before{
+        content: " ";
+        width:0;
+        position: absolute;
+        top: 0;
+        top: 0;
+    height:0;  /*Un carré de dimensions 0px */
+    border: solid 7px;  /*Définition des bordures */
+    border-color:transparent transparent transparent #fff;
+    transform: rotate(90deg);
+    left: 365px;
+    }
+    .racc:hover{
+        border-top: 2px solid white;
+    
+    }
+    
+    .all-az{
+        text-align: center !important;
+    }
+    .all_contener{
+        margin-left: 7px !important;
+    }
+    
+    .ptc-card{
+        text-align: left;
+        height: 0%;
+        border-radius: 0;
+        border: none;
+        background: #fff;
+        padding: 28px 32px 32px 32px;
+        position: relative;
+        height: auto;
+        margin: 0;
+        margin-top: 2%;
+        box-shadow: none;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        border-radius: 3px;
+        display: inline-block;
+    }
+    .ptc-card:hover{
+        transform: translateY(-10px);
+    }
+    .nome{
+        color: #F4F4F4;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-family: "Helvetica";
+        font-size: 25px;
+        color: #777777;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #777777;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 28px;
+        display: inline-block;
+    }
+    .valider-checke > a{
+        text-transform: uppercase;
+        float: right;
+        font-size: 13px;
+        color: #63A4FF;
+        text-decoration: none;
+      border-bottom: 2px solid #fff;
+      padding: 5px 0;
+        transition: 0.3s ease;
+      margin: 0 20px;
+      border-bottom: 2px solid #fff;
+      background-color: #fff;
+        border-bottom: 2px solid #63A4FF;
+    }
+    .banner{
+        height: 70px; 
+        width: 100%; 
+        background-size: cover;
+        background-position: no-repeat center;
+        margin-bottom: 28px;
+        
+    }
+    .ptc-card{
+        cursor: pointer;
+    }
+    .button{
+        padding: 0;
+    }
+    .button > a{
+        background: red;
+    }
+    .gbucks{
+        float: right;
+        color: #fff;
+        background:  #7DCEA0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .but{
+        margin-top: 18px;
+        margin-bottom: 8px;
+    }
+    .but > a{
+        text-transform: uppercase;
+        float: right;
+        font-size: 13px;
+        color: #7DCEA0;
+        text-decoration: none;
+      border-bottom: 2px solid #fff;
+      padding: 5px 0;
+        transition: 0.3s ease;
+      margin: 0 20px;
+      border-bottom: 2px solid #fff;
+      background-color: #fff;
+        border-bottom: 2px solid #7DCEA0;
+    }
+    .but > a:hover{
+        border-top: 4px solid #7DCEA0;
+      border-bottom: 4px solid #7DCEA0;
+      padding: 6px 0; 
+    }
+    
+    .t{
+        display: none;
+        position: absolute;
+        background: #F4F4F4;
+    
+    }
+    .a{
+        
+    }
+    
+    .valider-checke > a{
+    text-transform: uppercase;
+        float: right;
+        font-size: 13px;
+        color: #63A4FF;
+        text-decoration: none;
+      border-bottom: 2px solid #fff;
+      padding: 5px 0;
+        transition: 0.3s ease;
+      margin: 0 20px;
+      border-bottom: 2px solid #fff;
+      background-color: #fff;
+        border-bottom: 2px solid #63A4FF;
+        margin-top: 20px;
+    }
+    .valider-checke > a:hover{
+    border-top: 4px solid #63A4FF;
+      border-bottom: 4px solid #63A4FF;
+      padding: 6px 0; 
+    }
+    .valider-checke:after{
+        content: "Disponible aujourd'hui ...";
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        background: rgba(96%, 96%, 96%, 0.9);
+        margin: 0;
+        padding: 0;
+        margin-left: -32px;
+        position: absolute;
+        text-align: center;
+        line-height: 200px;
+    }
+    h2{
+        text-transform: uppercase;
+        color: #606060;
+    }
+    .regles{
+        color: #E74C3C;
+        font-size: 15px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .infos_mess{
+        background: #fff;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 25px;
+        box-shadow: 3px 2px 5px 0px #d5d5d5;
+        transform: scale(0.5);
+    }
+    .infos_mess:hover{
+        transform: scale(0.8);
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+    }
+    .infos_mess > a{
+        color: #606060;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    .logo-mess{
+        display: inline-block;
+        margin-bottom: -13px;
+        float: left;
+        width: 85px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50px;
+    }
+    .all-az > h2{
+        margin-top: 50px;
+    }
+    .logo-mess1{
+        display: inline-block;
+        margin-bottom: -13px;
+        float: right;
+        width: 85px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 50px;
+    }
+
+    ul > .active{
+        border-top: 2px solid white;
+    }
+    .active::before{
+        content: " ";
+        width:0;
+        position: absolute;
+        top: 0;
+        top: 0;
+        height:0;  /*Un carré de dimensions 0px */
+        border: solid 7px;  /*Définition des bordures */
+        border-color:transparent transparent transparent #fff;
+        transform: rotate(90deg);
+        left: 315px;
+    }
+    .racc:hover{
+        border-top: 2px solid white;
+        background: rgba(255,255,255,0.4);
+    
+    }
+
+
+    .mobile_card{
+        display: none !important;
+    }
+    @media screen and (min-width: 100px) and (max-width: 804px){
+       .mobile_card{
+           display: inline-block !important;
+       }
+       .pc_card{
+           display: none !important;
+       }
+       .top{
+           display: none;
+       }
+       .active::before{
+            display: none;
+        }
+    }
+    
+    
+    

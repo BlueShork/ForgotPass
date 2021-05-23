@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body{
+
+}
+nav > ul{
+	background: #4a69bd;
+}
+nav > ul > li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+}
+nav > ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+nav > ul > .left{
+	
+}
+.card{
+	background: #6a89cc;
+	width: 15%;
+	height: auto;
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.card > h3{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.card > .supprimer{
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+.tableau{
+	background: #212121;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

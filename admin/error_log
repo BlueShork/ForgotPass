@@ -1,0 +1,25 @@
+[02-Sep-2018 18:05:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home2/hgkayjnf/public_html/admin/index.php:58
+Stack trace:
+#0 /home2/hgkayjnf/public_html/admin/index.php(58): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home2/hgkayjnf/public_html/admin/index.php on line 58
+[02-Sep-2018 18:05:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home2/hgkayjnf/public_html/admin/index.php:58
+Stack trace:
+#0 /home2/hgkayjnf/public_html/admin/index.php(58): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home2/hgkayjnf/public_html/admin/index.php on line 58
+[02-Sep-2018 18:05:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home2/hgkayjnf/public_html/admin/index.php:58
+Stack trace:
+#0 /home2/hgkayjnf/public_html/admin/index.php(58): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home2/hgkayjnf/public_html/admin/index.php on line 58
+[07-Sep-2018 07:19:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'hgkayjnf_blueshork'@'localhost' (using password: YES) in /home/hgkayjnf/public_html/admin/index.php:29
+Stack trace:
+#0 /home/hgkayjnf/public_html/admin/index.php(29): PDO->__construct('mysql:host=loca...', 'hgkayjnf_bluesh...', 'ethan.morisset1...')
+#1 {main}
+  thrown in /home/hgkayjnf/public_html/admin/index.php on line 29
+[07-Sep-2018 07:19:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'hgkayjnf_blueshork'@'localhost' (using password: YES) in /home/hgkayjnf/public_html/admin/inscription_admin.php:29
+Stack trace:
+#0 /home/hgkayjnf/public_html/admin/inscription_admin.php(29): PDO->__construct('mysql:host=loca...', 'hgkayjnf_bluesh...', 'ethan.morisset1...')
+#1 {main}
+  thrown in /home/hgkayjnf/public_html/admin/inscription_admin.php on line 29

@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.classem{
+    /* background: linear-gradient(-45deg, #47C1FA 0%, #63A4FF 100%); */
+    background: linear-gradient(-45deg, #7DCEA0 0%, #7DCEA0 100%);
+    color: #fff;
+    display: inline-block;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1%;
+}
+.card_class{
+    background: #fff;
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 1.5rem;
+    transition: box-shadow .3s, transform .25s;
+    -webkit-box-shadow: 0.25rem 0.25rem 1.25rem rgba(146,125,250,0.1);
+    box-shadow: 0.25rem 0.25rem 1.25rem rgba(146,125,250,0.1);
+    color: #757785;
+
+    width: 50%;
+    max-width: 850px !important;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+.card_class > .rank{
+    display: inline-block;
+    color: #fff;
+    padding: 0;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background: linear-gradient(-45deg, #47C1FA 0%, #63A4FF 100%); */
+    background: linear-gradient(-45deg, #7DCEA0 0%, #7DCEA0 100%);
+}
+.card_class > p{
+    display: inline-block;
+}
+.card_class > .pseudo_c{
+    margin-left: 4%;
+}
+.card_class > .points_c{
+    /* background: linear-gradient(-45deg, #47C1FA 0%, #63A4FF 100%); */
+    background: linear-gradient(-45deg, #7DCEA0 0%, #7DCEA0 100%);
+    color: #fff;
+    float: right;
+    margin-right: 0;
+    border-radius: 0px 25px 25px 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.cardallc{
+   
+}
+footer{
+    margin-top: 10%;
+}
+
+.active::before{
+    content: " ";
+    width:0;
+    position: absolute;
+    top: 0;
+    top: 0;
+height:0;  /*Un carré de dimensions 0px */
+border: solid 7px;  /*Définition des bordures */
+border-color:transparent transparent transparent #fff;
+transform: rotate(90deg);
+left: 480px !important;
+}

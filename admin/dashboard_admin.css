@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body{
+
+}
+nav > ul{
+	background: #4a69bd;
+}
+nav > ul > li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+}
+nav > ul > li > a{
+	text-decoration: none;
+	color: #fff;
+}
+nav > ul > .left{
+	
+}

@@ -1,0 +1,6 @@
+/bdd_export
+bdd_export/
+**/bdd_export
+
+/.vscode
+/.well-known

@@ -1,0 +1,415 @@
+html{
+	background: #fff;
+}
+body{
+		font-family: 'Helvetica', 'Roboto';
+		background: #fff;
+}
+h1{
+	font-size: calc(24px + 8 * ((100vw - 480px) / 800));
+    line-height: 1.419;
+    margin-bottom: 16px;
+
+    color: #333333;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+    margin-top: 2%;
+	font-weight: bold !important;
+}
+nav{
+	box-shadow: 0px 4px 4px #DCDCDC;
+	background: #fff !important;
+}
+.inscription_card > p{
+	font-size: 1.375rem;
+    color: #646f79;
+    margin-bottom: 16px;
+    font-weight: none;
+    text-align: center;
+     margin-bottom: 2%;
+}
+.inscription_card{
+
+	
+}
+form{
+	text-align: center;
+	background: #fff;
+	border: 0px solid #bdc3c7;
+	box-shadow: 3px 2px 5px 0px #d5d5d5;
+	box-shadow: 0px 1px 7px 3px #d5d5d5;
+
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 8%;
+	margin-bottom: 4%;
+	padding-bottom: 4%;
+}
+.inscription_card > form > input{
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 2%;
+	display: block;
+	
+}
+form > img{
+	border-radius: 100%;
+	width: 150px;
+	margin-top: -75px;
+}
+.submit{
+	background: #63a4ff;
+	width: auto;
+	float: right;
+	margin-right: 40px;
+	margin-bottom: -20px;
+}
+.call{
+	display: inline-block;
+	width: 550px;
+	top: 0;
+	position: absolute;
+	top: 25%;
+}
+.different{
+	display: inline-block;
+	width: 550px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	top: 45%;
+}
+#no_success{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 10000000000000000000000000000000;
+	background: #e74c3c;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family:'Open Sans';
+}
+#no_success > p > a{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#yes_success{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 10000000000000000000000000000000;
+	background: #27ae60;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family:'Open Sans';
+}
+#yes_success > p > a{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#erreur_success{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 10000000000000000000000000000000;
+	background: #e67e22;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family:'Open Sans';
+}
+#erreur_success > p > a{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#no_success{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 10000000000000000000000000000000;
+	background: #e74c3c;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family:'Open Sans';
+}
+#no_success > p > a{
+	position: absolute;
+	right: 50px;
+	cursor: pointer;
+}
+.email{
+	border-radius: 4;
+
+}
+form{
+	border: none;
+	height: 681px;
+	width: 591px;
+}
+.call, .different{
+
+}
+
+.log{
+	font-size: 36px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: normal;
+	color: #333333;
+}
+input{
+	box-shadow: 3px 2px 5px 0px #d5d5d5;
+	box-shadow: 0px 1px 7px 3px #d5d5d5;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+legend{
+	margin-top: 45px;
+	margin-bottom: 15px;
+	text-align: left;
+	margin-left: 65px;
+	color: #333333;
+
+}
+.avatar_login{
+	box-shadow: 3px 2px 5px 0px #d5d5d5;
+	box-shadow: 0px 1px 7px 3px #d5d5d5;
+}
+form{
+	margin-top: 150px;
+}
+.have{
+	width: 100%;
+	margin-top: 200px;
+}
+@media screen and (min-width: 0px) and (max-width: 1874px){
+	.call, .different{
+		display: none;
+	}
+}
+.last > a{
+	border: none;
+}
+.last > a:hover{
+	background: none;
+}
+.last > a > img{
+	width: 50px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	border-radius: 36px;
+}
+.cancel{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 12px;
+	width: 12px;
+	height: 12px;
+}
+form{
+	box-shadow: 4px 4px 4px 4px 4px #DCDCDC;
+	border-radius: 6px;
+}
+.submit{
+	border-radius: 6px;
+	
+}
+.submit:hover{
+	background: #00CC6F;
+
+
+}
+.submit:focus{
+	border: none;
+	cursor: pointer;
+}
+.logo{
+	color: #333333;
+	font-family: 'Lilita One', 'Helvetica';
+}
+.fa-dove{
+	padding-right: 5px;
+}
+form{
+}
+form > input{
+	background-color: #fff;
+    border: 2px solid #e0e6e8;
+    border-radius: 3px;
+    height: 50px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    transition: border .15s;
+    color: #646f79;
+    padding-right: 45px;
+    font-size: 15px;
+	margin-left: 245px !important;
+	width: 350px !important;
+}
+.submit:hover{
+	background-color: #635ac7;
+    border-bottom: none;
+    color: #fff;
+    text-decoration: none;
+}
+input:focus{
+	border: 2px solid #63a4ff;
+}
+.submit{
+	background-color: #7DCEA0;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .15s,color .15s ease-in-out;
+    white-space: nowrap;
+   	 font-weight: bold;
+		position: absolute !important;
+		margin-left: 50% !important;
+
+}
+.last{
+	margin-right: 65px;
+	margin-top: -5px;
+}
+.cancel{
+	margin-left: 33.2px;
+	margin-top: 29px;
+}
+footer{
+	background: #7DCEA0;
+	padding: 75px;
+	margin-top: -175px;
+}
+footer > p{
+	display: none;
+}
+/* TEST */
+
+
+.pass::after{
+	content: "Test"
+}
+
+
+
+/* @media screen and (min-width : 200px) and (max-width: 582px){
+	.inscription_card{
+		margin-left: 150px;
+		margin-right: 150px;
+		width: auto;
+	}
+} */
+@media screen and (min-width: 472px) and (max-width: 600px) {
+	
+	form{
+		transform: scale(1);
+		margin-left: -150px !important;
+		width: 450px !important;
+		overflow: hidden !important;
+		z-index: 7 !important;
+		margin-top: 47px !important;
+		margin-left: 50% !important;
+		transform: translateX(-50%);
+	}
+	h1{
+		text-align: center !important;
+		font-size: 45px !important;
+		font-size: calc(24px + 8 * ((100vw - 480px) / 800));
+    	margin-bottom: 16px;
+    	color: #333333;
+    	font-weight: 400;
+    	margin-top: 0;
+    	margin-top: 2%;
+		margin-bottom: 5% !important;
+		font-weight: bold !important;
+		display: none;
+	}
+	form > input{
+		margin-left: 50% !important;
+	}
+	.legend{
+		margin-left: 55px !important;
+	}
+	.avatar_login{
+		overflow: visible !important;
+		margin-top: 50px !important;
+	}
+	.inscription_card > p{
+		text-align: center;
+		display: none;
+		font-size: 23.5px !important;
+	}
+	footer{
+		display: none;
+	}
+}
+@media screen and (min-width: 100px) and (max-width: 471px) {
+	
+	form{
+		margin-left: -150px !important;
+		width: 300px !important;
+		overflow: hidden !important;
+		z-index: 7 !important;
+		margin-top: 47px !important;
+		margin-left: 50% !important;
+		transform: translateX(-50%);
+	}
+	h1{
+		text-align: center !important;
+		font-size: 45px !important;
+		font-size: calc(24px + 8 * ((100vw - 480px) / 800));
+    	margin-bottom: 16px;
+    	color: #333333;
+    	font-weight: 400;
+    	margin-top: 0;
+    	margin-top: 2%;
+		margin-bottom: 5% !important;
+		font-weight: bold !important;
+		display: none;
+	}
+	.log{
+		font-size: 18px !important;
+	}
+	form > input{
+		margin-left: 50% !important;
+		width: 250px !important;
+	}
+	.legend{
+		margin-left: 55px !important;
+	}
+	.avatar_login{
+		overflow: visible !important;
+		margin-top: 50px !important;
+		width: 80px !important;
+	}
+	.inscription_card > p{
+		text-align: center;
+		display: none;
+		font-size: 23.5px !important;
+	}
+	footer{
+		display: none;
+	}
+}

@@ -1,0 +1,100 @@
+ul > .active{
+    border-top: 2px solid white;
+}
+.active::before{
+    content: " ";
+    width:0;
+    position: absolute;
+    top: 0;
+    top: 0;
+    height:0;  /*Un carré de dimensions 0px */
+    border: solid 7px;  /*Définition des bordures */
+    border-color:transparent transparent transparent #fff;
+    transform: rotate(90deg);
+    left: 330px !important;
+}
+.racc:hover{
+    border-top: 2px solid white;
+    background: rgba(255,255,255,0.4);
+
+}
+footer{
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 804px){
+    .mobile_card{
+        display: inline-block !important;
+    }
+    .pc_card{
+        display: none !important;
+    }
+    .top{
+        display: none;
+    }
+    .active::before{
+         display: none;
+     }
+ }
+#classmenu{
+    text-align: center;
+    margin-bottom: 35px;
+    width: 50% !important;
+    max-width: 850px;
+    background-color: red;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 3px 2px 5px 0px #d5d5d5;
+}
+#classmenu > #global_class, #weekly_class{
+    background: #fff;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    
+}
+#classmenu > #weekly_class{
+   
+}
+#classmenu > #weekly_class::after{
+    content: "";
+    display: inline-block;
+    transform: rotate(30deg);
+    width: 5px;
+    height: 41px;
+    background: #fff;
+    position: relative;
+    top: 15px;
+    left: -100px;
+    border-radius: 36px;
+    box-shadow: 3px 2px 5px 0px #d5d5d5;
+}
+.visible{
+    display: block !important;
+}
+.no_visible{
+    display: none !important;
+}
+.class_active{
+    background-color: linear-gradient(-45deg, #7DCEA0 0%, #7DCEA0 100%) !important;
+    
+}
+#classmenu > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(33,33,33,.7);
+}
+@media screen and (min-width: 100px) and (max-width: 804px){
+
+    #classmenu{
+        width: 90% !important;
+    }
+    .card_class{
+        width: 90% !important;
+    }
+    .truechat{
+        margin-right: 0px !important;
+      
+    }
+}
